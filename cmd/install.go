@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"fmt"
+	installer "mscript/internal/install"
 
 	"github.com/spf13/cobra"
 )
@@ -17,6 +17,5 @@ func newInstallCmd() *cobra.Command {
 }
 
 func runInstallMenu() error {
-	fmt.Println("install 功能待实现，后续可接入 nodejs、python 等安装脚本。")
-	return nil
+	return installer.RunMenu()
 }
