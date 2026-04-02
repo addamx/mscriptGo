@@ -16,4 +16,4 @@ bash scripts/release.sh v0.1.0
 
 
 # install
-curl -fsSL https://raw.githubusercontent.com/addamx/mscriptGo/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/addamx/mscriptGo/master/install.sh | bash
